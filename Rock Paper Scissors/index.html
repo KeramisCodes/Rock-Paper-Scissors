@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <main>
+        <h1>Rock Paper Scissors</h1>
+        <table id="scores">
+            <tr>
+                <th colspan="2">Score</th>
+            </tr>
+            <tr>
+                <th>Player 1</th>
+                <th>PC</th>
+            </tr>
+            <tr>
+                <td id="playerScore"></td>
+                <td id="pcScore"></td>
+            </tr>
+        </table>
+        <main>
+            <img class="choice" id="rock" src="./images/rock.svg" alt="rock">
+            <img class="choice" id="paper" src="./images/paper.svg" alt="paper">
+            <img class="choice" id="scissors" src="./images/scissors.svg" alt="scissors"><br>
+            <span id="winner"></span>
+        </main>
+    </main>
+    <script src="js/rules.js"></script>
+</body>
+</html>

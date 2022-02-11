@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'poppins', sans-serif;
+}
+body {
+    margin: auto;
+    padding: 0;
+    width: 50%;
+    text-align: center;
+    background-image: url("./images/Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: rgb(240, 239, 239);
+    text-shadow: 2px 2px rosybrown;
+}
+img {
+    width: 10%;
+    height: auto;
+    cursor: pointer;
+    margin: 25px;
+    filter:drop-shadow(3px 5px 2px rgb(85, 88, 104));
+}
+
+
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid black;
+  } 
+ th, td {
+     padding: 5px;
+ }
+  
+  th,td {
+    border: 1px solid black;
+  }
+
+
+
