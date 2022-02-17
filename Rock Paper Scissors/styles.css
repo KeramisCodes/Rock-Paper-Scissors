@@ -8,7 +8,7 @@ html {
 body {
     margin: auto;
     padding: 0;
-    width: 50%;
+    width: auto;
     height: 100vh;
     text-align: center;
     background-image: url("./images/Background.jpg");
@@ -18,17 +18,22 @@ body {
 
 h1 {
     color: rgb(240, 239, 239);
-    text-shadow: 2px 2px rosybrown;
+    text-shadow: 2px 2px gray;
 }
+
 img {
-    width: 10%;
+    width: 8vw;
     height: auto;
     cursor: pointer;
     margin: 25px;
     filter:drop-shadow(3px 5px 2px rgb(85, 88, 104));
 }
-
-
+#scores {
+    display: flex;
+    align-content: center;
+    justify-content:center;
+    border: none;
+}
 table, th, td {
     border-collapse: collapse;
     border: 1px solid black;
@@ -41,10 +46,17 @@ table, th, td {
     border: 1px solid black;
   }
 
-@media only screen and (max-width: 600px) {
+span {
+    color: white;
+}
+@media only screen and (max-width: 800px) {
     img {
+        width: 5rem;
         display: block;
-        width: 25%;
+        margin-left: 41%;
+        
     }
 }
+
+
 
